@@ -29,6 +29,8 @@ df['nivel_de_experiencia'].value_counts()
 
 df['nivel_de_experiencia'].value_counts(normalize=True) * 100
 
+df.head()
+df. describe(include='object')
 
 
 
